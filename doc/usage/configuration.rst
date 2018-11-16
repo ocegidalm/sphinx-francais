@@ -9,10 +9,10 @@ Configuration
 .. module:: conf
    :synopsis: Build configuration file.
 
-The :term:`configuration directory` must contain a file named :file:`conf.py`.
-This file (containing Python code) is called the "build configuration file"
-and contains (almost) all configuration needed to customize Sphinx input
-and output behavior.
+Le :term:`dossier de configuration` doit contenir un fichier nommé
+:file:`conf.py`.  Ce fichier (qui contient du code Python) est appelé le
+"fichier de configuration de la compilation" et contient (presque) toute la
+configuration nécessaire à la personnalisation des entrées/sorties de Sphinx.
 
   An optional file `docutils.conf`_ can be added to the configuration
   directory to adjust `Docutils`_ configuration if not otherwise overridden or
